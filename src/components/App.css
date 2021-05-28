@@ -1,0 +1,31 @@
+.column-layout{
+  max-width: 1300px;
+  background-color:#778899;
+  margin:40px auto 0 auto;
+  line-height: 1.65;
+  padding: 20px 50px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.main-layout{
+ flex: 2;
+}
+.main-layout h3,h2 {
+  color: rgb(189, 223, 220);
+}
+.sidebar-one p{
+  color: #FFF;
+}
+.sidebar-one h3{
+  color: rgb(90, 20, 20);
+}
+.sidebar-one{
+  flex:0.7;
+}
+
+.sidebar-two{
+  flex:0.1;
+  align-self: center;
+  
+}
